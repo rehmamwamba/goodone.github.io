@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(images/desktop/image-header.jpg);
+}
+
+.logo{
+    margin-right: 900px;
+    text-decoration:none;
+    font-size: 30px;
+    color: white;
+}
+nav .onglets{
+    
+    margin-left: 400px;
+}
+.onglets a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+   
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url(images/desktop/image-header.jpg);
+    background-size: cover;
+    color: white;
+    padding: 300px;
+}
+
+.gap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+}
+.left{
+    display: grid;
+    grid-row: 1;
+    text-align: left;
+}
+.right{
+    display: grid;
+    grid-row: 2;
+    text-align: right;
+ 
+}
+
+
+#footer1{
+    background-color: white;
+    padding: 30px 100px;
+}
+#footer1 h1{
+    text-align: center;
+}
+.Emily{
+    border-radius: 90px;
+}
+#footer1 .insta{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+}
+.butle{
+    display: flex;
+    height: 65%;
+}
+#footer2{
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(144,212, 197);
+    color: rgba(255, 255, 255, 0.799);
+    margin-top: -20px;
+    padding: 30px 100px;
+    
+}
+.none{
+    padding: 100px;
+}
+.fin{
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
